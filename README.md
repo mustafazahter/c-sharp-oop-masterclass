@@ -1,27 +1,20 @@
-# C# OOP Masterclass
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Bu proje, C# programlama dilinde Nesne Yönelimli Programlama (OOP) kavramlarını detaylı olarak anlatan, modern ve interaktif bir eğitim uygulamasıdır. İçerikte, C# OOP temellerinden ileri düzey konulara kadar birçok konu ele alınmaktadır.
+# Run and deploy your AI Studio app
 
-## Özellikler
+This contains everything you need to run your app locally.
 
-*   Kapsamlı C# OOP eğitim içeriği.
-*   Kod örnekleri ve açıklamalar.
-*   Modern, duyarlı (responsive) React tabanlı kullanıcı arayüzü.
+View your app in AI Studio: https://ai.studio/apps/0aa9fabc-6d5b-44e5-b095-63d639d224db
 
-## Teknolojiler
+## Run Locally
 
-*   React
-*   Vite
-*   Tailwind CSS
+**Prerequisites:**  Node.js
 
-## Kurulum ve Çalıştırma
 
-Projeyi yerel bilgisayarınızda çalıştırmak için:
-
-1.  Bağımlılıkları yükleyin:
-    ```bash
-    npm install
-    ```
-2.  Geliştirme sunucusunu başlatın:
-    ```bash
-    npm run dev
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
